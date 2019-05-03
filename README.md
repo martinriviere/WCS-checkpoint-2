@@ -32,7 +32,7 @@ Tu peux utiliser au choix [Axios](https://github.com/axios/axios) ou [Fetch](htt
 
 - `<GameList />` devra récupérer les jeux de l'API et devra les afficher via des composants `<Game />`.
 - `<Game />` devra récupérer via des _props_ les informations de chaque jeu (titre, description, image etc...) et les afficher au format de ton choix.
-- Ajoute un bouton `supprimer` au composant `Game` qui permettra de supprimer un jeu du state de l'applicaition au clic. *Il s'agit de modifier l'affichage de l'application, pas de faire un appler à l'api pour supprimer le jeu*
+- Ajoute un bouton `supprimer` au composant `Game` qui permettra de supprimer un jeu du state de l'applicaition au clic. *Il s'agit de modifier l'affichage de l'application, pas de faire un appel à l'api pour supprimer le jeu*
 
 ## Étape 4 - Bonus
 

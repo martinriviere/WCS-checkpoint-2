@@ -34,14 +34,14 @@ Tu peux utiliser au choix [Axios](https://github.com/axios/axios) ou [Fetch](htt
 - `<Game />` devra récupérer via des _props_ les informations de chaque jeu (titre, description, image etc...) et les afficher au format de ton choix.
 - Ajoute un bouton `supprimer` au composant `Game` qui permettra de supprimer un jeu du state de l'applicaition au clic. *Il s'agit de modifier l'affichage de l'application, pas de faire un appel à l'api pour supprimer le jeu*
 
-## Étape 4 - Bonus
+## Étape 3 - Bonus
 
 Il te reste du temps ? Parfait ! Tu vas pouvoir ajouter quelques fonctionnalités utiles à ton projet React !
 
 - ajoute un `select` qui liste tous les thémes et qui permet de filtrer la liste affichée.
 - ajoute un bouton `voir la promo` pour chaque jeu et utilise react-router pour afficher l'image `promo` et/ou la vidéo `trailer` sur une page avec une url de type `http://localhost:3000/jeu/promo/5` ou 5 est l'id du jeu selectionné.
 
-## Étape 5 - Et voilà...
+## Étape 4 - Et voilà...
 
 Tu peux aller te désaltérer à la brasserie, tu l'as amplement mérité !!
 

@@ -23,7 +23,7 @@ Ce checkpoint est très consistant, si tu n'arrives pas à tout faire ce n'est p
 
 Dans cette étape, tu vas créer un nouveau projet React dans lequel il y aura 2 composants qui afficheront des données provenant d'une API.
 
-L'API est accessible sur cette url [https://wild-games.herokuapp.com/api/v1](http://www.campus-bordeaux.ovh:3002/joysticks/api/games).
+L'API est accessible sur cette url [https://wild-games.herokuapp.com/api/v1](https://wild-games.herokuapp.com/api/v1).
 Tu peux utiliser au choix [axios](https://github.com/axios/axios) ou [fetch](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch) pour récupérer les données.
 
 Pense bien à `commit` régulièrement avec un message explicite. Par exemple : `"Create GameList and Game components"`.

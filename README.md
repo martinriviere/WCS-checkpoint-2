@@ -31,25 +31,25 @@ Pense bien à `commit` régulièrement avec un message explicite. Par exemple : 
 - Crée un nouveau projet React nommé **list-games** grâce à `create-react-app`.
 - Crée 2 composants `<GameList />` et `<Game />`.
 - `<GameList />` récupère les jeux de l'API et  les affiche dans autant de composants `<Game />`.
-- `<Game />` récupère avec des `props` les informations de chaque jeu (`titre`, `description`, `image`…) et les affiche au format de ton choix.
+- `<Game />` récupère avec des `props` les informations de chaque jeu (`name`, `background_image`, `rating`…) et les affiche au format de ton choix.
 - `<Game />` contient un `<button>` qui permet au click de supprimer un jeu du `state`. _Il n'y a pas besoin de le supprimer de l'API._
 
 ## Étape 3 - Bonus
 
 Il te reste du temps ? Parfait ! Tu vas pouvoir ajouter quelques fonctionnalités utiles à ton projet React !
 
-### Filtrer les jeux affichés par thème
+### Filter les jeux par note
 
-- Ajoute un `<select>` qui contient la liste des thèmes
-- Quand le thème sélectionné change, affiche uniquement les jeux de ce thème
+- Ajoute un bouton `Best Games` pour filter les jeux par `rating`
+- Quand on clique sur le bouton seuls les jeux dont le `rating` est supérieur ou égal à 4.5 sont affichés
+- Le texte du bouton est remplacé par `All Games` et quand on clique dessus, tous les jeux sont affichés à nouveau
 
-### Ajouter une page de promotion
+### Ajouter une page screenshots
 
 Pour ce bonus, utilise la librairie `react-router`.
 
-- Ajoute un lien de navigation dans chaque jeu pour voir la promo. 
-- Cliquer sur ce lien change la page pour `http://localhost:3000/jeu/promo/5` ou 5 est l'id du jeu selectionné.
-- Sur cette page, affiche l'image de `promo` et/ou la vidéo de `trailer`.
+- Ajoute un lien de navigation dans chaque jeu pour voir les images listées dans le champ `short_screenshots`. 
+- Cliquer sur ce lien change la page pour `http://localhost:3000/jeu/screenshots/5` ou 5 est l'id du jeu selectionné.
 - Affiche également un lien de navigation permettant de revenir sur la page d'accueil.
 
 ## Étape 4 - Félicitations !

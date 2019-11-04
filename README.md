@@ -10,8 +10,8 @@ Ce checkpoint est très consistant, si tu n'arrives pas à tout faire ce n'est p
 
 ## Étape 1 - Quiz
 
-- Pour répondre au quiz rend toi sur [cette application](http://checkpoint-quiz.campus-bordeaux.ovh/).
-- Réponds aux questions du Quiz **Checkpoint 2 - JS**
+- Pour répondre au quiz rend toi sur [cette application](https://wild-quiz-client.herokuapp.com/).
+- Réponds aux questions du Quiz **Checkpoint 2 - JS - React**
 - Une fois le quiz terminé, copie le lien fourni par l'application
 - Crée un fichier Quiz.md à la racine du projet
 - Colles-y le lien que tu viens de récupérer

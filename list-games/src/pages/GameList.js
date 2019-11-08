@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import Game from "./Game";
+import Game from "../components/Game";
 import { CardDeck, Row, Col, Container, Button } from "reactstrap";
 import { GamesContext } from "../providers/GamesProvider";
 

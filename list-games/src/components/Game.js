@@ -2,7 +2,6 @@ import React from "react";
 import {
   Card,
   CardImg,
-  CardText,
   CardBody,
   CardTitle,
   CardSubtitle,
@@ -53,7 +52,11 @@ function Game({ game, deleteGame }) {
             <a href={game.clip.clip} target="_blank">
               <Button className="m-1">View clip</Button>
             </a>
-            <Button onClick={() => deleteGame(game.id)} className="m-1">
+            <Button
+              onClick={() => deleteGame(game.id)}
+              color="danger"
+              className="m-1"
+            >
               Delete
             </Button>
           </div>

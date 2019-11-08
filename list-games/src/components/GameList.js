@@ -1,21 +1,11 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React, { useState, useContext } from "react";
 import Game from "./Game";
 import { CardDeck, Row, Col, Container, Button } from "reactstrap";
+import { GamesContext } from "../providers/GamesProvider";
 
 function GameList() {
-  const [games, setGames] = useState([]);
+  const { games, setGames } = useContext(GamesContext);
   const [areBestGamesFiltered, setAreBestGamesFiltered] = useState(false);
-
-  useEffect(() => {
-    const fetchGames = async () => {
-      const { data } = await axios.get(
-        "https://wild-games.herokuapp.com/api/v1"
-      );
-      setGames(data);
-    };
-    fetchGames();
-  }, []);
 
   const deleteGame = gameId => {
     setGames(games.filter(game => game.id !== gameId));

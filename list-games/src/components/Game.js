@@ -6,8 +6,11 @@ import {
   CardTitle,
   CardSubtitle,
   Button,
-  Badge
+  Badge,
+  Row,
+  Col
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 function Game({ game, deleteGame }) {
   const genreColor = genreId => {
@@ -48,18 +51,24 @@ function Game({ game, deleteGame }) {
           <CardSubtitle className="mt-1">
             Rating: <Badge>{game.rating}</Badge>
           </CardSubtitle>
-          <div className="mt-3" style={{ margin: "auto" }}>
-            <a href={game.clip.clip} target="_blank">
-              <Button className="m-1">View clip</Button>
-            </a>
-            <Button
-              onClick={() => deleteGame(game.id)}
-              color="danger"
-              className="m-1"
-            >
-              Delete
-            </Button>
-          </div>
+          <Row className="mt-3" style={{ margin: "auto" }}>
+            <Col className="text-center">
+              <Link to={`jeu/screenshot/${game.id}`}>
+                <Button className="m-1">View screenshots</Button>
+              </Link>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="text-center">
+              <Button
+                onClick={() => deleteGame(game.id)}
+                color="danger"
+                className="m-1"
+              >
+                Delete
+              </Button>
+            </Col>
+          </Row>
         </CardBody>
       </Card>
     </div>

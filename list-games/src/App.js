@@ -1,8 +1,12 @@
 import React from "react";
-import "./App.css";
+import GameList from "./components/GameList";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <GameList />
+    </div>
+  );
 }
 
 export default App;

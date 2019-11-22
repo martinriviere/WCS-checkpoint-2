@@ -30,7 +30,7 @@ Pense bien à `commit` régulièrement avec un message explicite. Par exemple : 
 
 - Crée un nouveau projet React nommé **list-games** grâce à `create-react-app`.
 - Crée 2 composants `<GameList />` et `<Game />`.
-- `<GameList />` récupère les jeux de l'API et  les affiche dans autant de composants `<Game />`.
+- `<GameList />` récupère les jeux de l'API et les affiche dans autant de composants `<Game />`.
 - `<Game />` récupère avec des `props` les informations de chaque jeu (`name`, `background_image`, `rating`…) et les affiche au format de ton choix.
 - `<Game />` contient un `<button>` qui permet au click de supprimer un jeu du `state`. _Il n'y a pas besoin de le supprimer de l'API._
 
@@ -48,7 +48,7 @@ Il te reste du temps ? Parfait ! Tu vas pouvoir ajouter quelques fonctionnalité
 
 Pour ce bonus, utilise la librairie `react-router`.
 
-- Ajoute un lien de navigation dans chaque jeu pour voir les images listées dans le champ `short_screenshots`. 
+- Ajoute un lien de navigation dans chaque jeu pour voir les images listées dans le champ `short_screenshots`.
 - Cliquer sur ce lien change la page pour `http://localhost:3000/jeu/screenshots/5` ou 5 est l'id du jeu selectionné.
 - Affiche également un lien de navigation permettant de revenir sur la page d'accueil.
 
@@ -59,3 +59,5 @@ Tu peux aller te désaltérer à la brasserie, tu l'as amplement mérité !
 **N.B. : Tu ne dois pas commencer par cette étape… ;)**
 
 ![Good Luck](https://media.giphy.com/media/AC1PtbdsJZyOQ/giphy.gif)
+
+Le site déployé est accessible à l'adresse suivante : https://hungry-banach-01c1a8.netlify.com/.
